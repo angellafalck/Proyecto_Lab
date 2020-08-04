@@ -24,6 +24,7 @@
     <ProjectGuid>{f426899a-2191-470c-adc1-ba7db92fdbaa}</ProjectGuid>
     <RootNamespace>HelloWorld</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Juego_Filosofia_Allegro</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -155,6 +156,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameMenu.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
   </ItemGroup>
   <ItemGroup>
