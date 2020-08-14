@@ -10,7 +10,7 @@ double pi = 2 * acos(0.0);
 
 Rueda::Rueda(int target) :angulo(0), vuetas(3), targetF(target), background(al_load_bitmap("RuedaFilo.png"))
 {
-
+	limite.push_back(0);
 }
 
 void Rueda::Draw()
@@ -47,10 +47,27 @@ void Rueda::setAngulo(float _angulo) {
 	this->angulo = _angulo;
 }
 
-int Rueda::random(int max)// funcion randompara generar aleatoriedad
+int Rueda::random(int max)// funcion random para generar aleatoriedad
 {
-	int n;
-	srand(time(NULL));
-	n = rand();
-	return n % max;
+	while (true) {
+		int n;
+		bool yaPaso = false;
+		srand(time(NULL));
+		n = rand();
+		int tot = n % max ;
+
+		for (int x : limite) {
+			if (tot == x) {
+				yaPaso = true;
+				break;
+			}
+		}
+
+		if (!yaPaso) {
+			limite.push_back(tot);
+			return tot;
+		}
+	}
+
+	
 }

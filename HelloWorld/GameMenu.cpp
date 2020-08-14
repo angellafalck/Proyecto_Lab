@@ -325,6 +325,13 @@ bool pantallaP(ALLEGRO_FONT* font, ALLEGRO_COLOR color, ALLEGRO_BITMAP* backgrou
         }
     }
     while (true) {
+        if (puntos == 2)
+        {
+            cout << "\nSe gano el juego";
+            
+            break;
+        }
+      
 
         al_wait_for_event(queue, &event);
         switch (event.type)
@@ -464,9 +471,15 @@ bool pantallaP(ALLEGRO_FONT* font, ALLEGRO_COLOR color, ALLEGRO_BITMAP* backgrou
                         }
                     }
                 }//fin de teclas pregunta
+               
             }
+           
+        
             break;
         }
+
+        
+
         if (done) {
             cargar = 0;
             al_destroy_bitmap(background);
@@ -509,6 +522,15 @@ bool entrarNivel1(ALLEGRO_FONT* font, ALLEGRO_COLOR color, ALLEGRO_BITMAP* backg
     int r = 0;
     al_start_timer(timer);
     while (true) {
+
+
+        if (puntos == 2)
+        {
+            cout << "\nSe gano el juego";
+
+            break;
+        }
+
 
         color = azul;
         al_clear_to_color(al_map_rgb(0, 0, 0));

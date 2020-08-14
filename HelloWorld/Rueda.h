@@ -4,7 +4,12 @@
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
+#include <vector>
+
+using namespace std;
+
 class Rueda {
+
 private:
 	float angulo, targetF;
 	int vuetas;
@@ -12,6 +17,7 @@ private:
 
 
 public:
+	vector<int> limite;
 	Rueda(int);
 	void Draw();
 	void setTargetF(float);
