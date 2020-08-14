@@ -158,9 +158,13 @@
   <ItemGroup>
     <ClCompile Include="GameMenu.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Rueda.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rueda.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
