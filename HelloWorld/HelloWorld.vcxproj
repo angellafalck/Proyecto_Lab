@@ -158,12 +158,14 @@
   <ItemGroup>
     <ClCompile Include="GameMenu.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Preguntas.cpp" />
     <ClCompile Include="Rueda.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Preguntas.h" />
     <ClInclude Include="Rueda.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
