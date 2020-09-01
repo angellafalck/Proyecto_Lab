@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClCompile Include="GameMenu.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Nivel2.cpp" />
     <ClCompile Include="Preguntas.cpp" />
     <ClCompile Include="Rueda.cpp" />
   </ItemGroup>
@@ -165,6 +166,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="mapa.h" />
+    <ClInclude Include="Nivel2.h" />
     <ClInclude Include="Preguntas.h" />
     <ClInclude Include="Rueda.h" />
   </ItemGroup>

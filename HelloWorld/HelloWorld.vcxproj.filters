@@ -30,12 +30,21 @@
     <ClCompile Include="Preguntas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Nivel2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Rueda.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Preguntas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mapa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nivel2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
