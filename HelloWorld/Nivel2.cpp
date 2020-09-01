@@ -226,36 +226,36 @@ void Nivel2::Logica(ALLEGRO_FONT* font, ALLEGRO_COLOR color, ALLEGRO_BITMAP* bac
             switch (curFrame)
             {
             case 0:
-                al_draw_bitmap_region(sprite1P, 300, 135, 100, 135, 420, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 300, 135, 100, 135, 420, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             case 1:
-                al_draw_bitmap_region(sprite1P, 300, 135, 100, 135, 370, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 300, 135, 100, 135, 370, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             case 2:
-                al_draw_bitmap_region(sprite1P, 300, 135, 100, 135, 320, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 300, 135, 100, 135, 320, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             case 3:
-                al_draw_bitmap_region(sprite1P, 300, 135, 100, 135, 280, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 300, 135, 100, 135, 280, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             case 4:
-                al_draw_bitmap_region(sprite1P, 450, 135, 100, 135, 240, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 450, 135, 100, 135, 240, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             case 5:
-                al_draw_bitmap_region(sprite1P, 450, 135, 100, 135, 200, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 450, 135, 100, 135, 200, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             case 6:
-                al_draw_bitmap_region(sprite1P, 450, 135, 100, 135, 180, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 450, 135, 100, 135, 180, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             case 7:
-                al_draw_bitmap_region(sprite1P, 600, 135, 110, 135, 150, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 600, 135, 110, 135, 150, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             case 8:
-                al_draw_bitmap_region(sprite1P, 600, 135, 110, 135, 150, 200, ALLEGRO_FLIP_HORIZONTAL);
+                al_draw_bitmap_region(sprite2P, 600, 135, 110, 135, 150, 200, ALLEGRO_FLIP_HORIZONTAL);
                 break;
             }
         }
         else {
-            al_draw_bitmap_region(sprite1P, 0, 135, 90, 271, 500, 200, ALLEGRO_FLIP_HORIZONTAL);
+            al_draw_bitmap_region(sprite2P, 0, 135, 90, 271, 500, 200, ALLEGRO_FLIP_HORIZONTAL);
         }
 
         if (respuesta1P != -1 && respuesta2P != -1)
